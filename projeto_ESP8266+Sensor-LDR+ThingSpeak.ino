@@ -2,11 +2,11 @@
 #include <ESP8266WiFi.h>
 #include "ThingSpeak.h"
 
-#define WIFI_NAME "IFCE_Open"
-#define WIFI_PASSWORD ""
+#define WIFI_NAME "" // Nome do seu WiFi
+#define WIFI_PASSWORD "" // Senha
 
-const int myChannelNumber = 2360314;
-const char* myApiKey = "EV169VU84FYJB2I4";
+const int myChannelNumber = ""; // Chave do seu ThingSpeak
+const char* myApiKey = ""; // ApiKay
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
